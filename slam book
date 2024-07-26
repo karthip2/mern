@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+              height:auto;
+              width:400px;
+              background-color:rgb(184, 148, 101);
+              opacity: 0.8;
+              width:fit-content;
+        }
+        form{
+            text-align: justify;
+            width: fit-content;
+            margin-left:100px;
+            margin-right:100px;
+        }
+        
+    </style>
+</head>
+<body background="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/image/rDtN98Qoishumwih/seamless-pattern-background-for-happy-friendship-day_7yhr5V_SB_PM.jpg">
+    <center>
+    <fieldset>
+    <form>
+        <h2>SLAM BOOK</h2>
+        <label for="one">Name</label><br>
+        <input type="text" id="one">
+        <br>
+        <br>
+        <label for="two">DOB</label><br>
+        <input type="date" id="two">
+        <br>
+        <br>
+        <label for="three">Gender</label><br>
+        <input type="radio" id="three"  name="g" value="Male">Male<br>
+        <input type="radio" id="three"  name="g" value="Female">Female
+        <br>
+        <br>
+        <label for="on">Favorite Place</label><br>
+        <input type="checkbox" id="on" name="s">Mysore Palace<br>
+        <input type="checkbox" id="on" name="s">Taj Mahal<br>
+        <input type="checkbox" id="on" name="s">Valley of Flowers<br>
+        <input type="checkbox" id="on" name="s">Alappuzha
+        <br>
+        <br>
+        <label for="to">Hobbies</label><br>
+        <input type="checkbox" id="to" namme="h">Singing<br>
+        <input type="checkbox" id="to" namme="h">Dancing<br>
+        <input type="checkbox" id="to" namme="h">Drawing<br>
+        <input type="checkbox" id="to" namme="h">Watching TV
+        <br>
+        <br>
+        <label for="four">Tell me about anything</label><br>
+        <textarea name="four"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Submit"> 
+    </form>
+</fieldset>
+</center>
+</body>
+</html>
